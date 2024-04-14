@@ -1,5 +1,5 @@
 var div = document.getElementById('log');
-var textos = ['LIMPO!', 'SUSTENTAVEL!', 'PRODUTIVO!', 'RICO!', 'LIVRE DE CARBONO!'];
+var textos = ['PRODUTIVO!', 'SUSTENTAVEL!', 'LIMPO!', 'RICO!', 'LIVRE DE CARBONO!'];
 
 function escrever(str, done) {
     var char = str.split('').reverse();
