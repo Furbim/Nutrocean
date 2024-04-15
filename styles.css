@@ -112,7 +112,7 @@ section {
 }
 
 
-@media (width < 989px) {
+@media (width < 989px ) {
   section {
     align-items: center;
     padding-left: 0;
@@ -121,6 +121,7 @@ section {
   #log{
     padding-left: 3%;
     font-size: 40px;
+    
   }
   #title{
     margin-top: 4%;
@@ -129,10 +130,39 @@ section {
   }
   #boia{
 
-    bottom: 17rem;
+    bottom: 7rem;
   }
 
   .links {
     gap: 20px;
   }
 }
+
+
+@media (width < 598px) {
+  section {
+    align-items: center;
+    padding-left: 0;
+    gap: 20px;
+  }
+  #log{
+    padding-left: 3%;
+    font-size: 40px;
+    
+  }
+  #title{
+    margin-top: 4%;
+    padding-left: 3%;
+    font-size: 15px;
+  }
+  #boia{
+
+    bottom: 17.5rem;
+  }
+
+  .links {
+    gap: 20px;
+  }
+}
+
+
