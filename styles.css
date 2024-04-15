@@ -112,7 +112,7 @@ section {
 }
 
 
-@media (width < 789px) {
+@media (width < 989px) {
   section {
     align-items: center;
     padding-left: 0;
